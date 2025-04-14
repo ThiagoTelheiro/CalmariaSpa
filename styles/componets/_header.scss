@@ -1,3 +1,6 @@
+@use "../abstract/variaveis";
+@use "../abstract/mixins";
+
 header {
   background: variaveis.$gradiente-primario;
   padding: 2rem;
@@ -32,8 +35,7 @@ header {
 
   #home {
     max-width: 1040px;
-    width: 80%;
-    margin: 0 auto;
+    @include mixins.margem-central(80%);
     display: flex;
     align-items: center;
     justify-content: space-between;
