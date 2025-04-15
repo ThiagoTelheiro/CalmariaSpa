@@ -24,10 +24,13 @@ header {
         list-style-type: none;
 
         a {
+          @include mixins.ff-fs-fw-cl(
+            variaveis.$ft-textos,
+            1rem,
+            500,
+            variaveis.$cor-primaria
+          );
           text-decoration: none;
-          color: variaveis.$cor-primaria;
-          font-weight: 500;
-          font-family: variaveis.$ft-textos;
         }
       }
     }

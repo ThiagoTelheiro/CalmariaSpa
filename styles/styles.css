@@ -26,10 +26,11 @@ header nav ul li {
   list-style-type: none;
 }
 header nav ul li a {
-  text-decoration: none;
-  color: #0c0421;
-  font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0c0421;
+  text-decoration: none;
 }
 header #home {
   max-width: 1040px;
@@ -67,4 +68,9 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */
