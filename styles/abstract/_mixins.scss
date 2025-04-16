@@ -2,10 +2,8 @@
   margin: 0 auto;
   width: $width;
 }
-
-@mixin ff-fs-fw-cl($f-family, $f-size, $f-weight, $f-color) {
+@mixin ff-fs-cl($f-family, $f-size, $f-color) {
   font-family: $f-family;
   font-size: $f-size;
-  font-weight: $f-weight;
   color: $f-color;
 }
